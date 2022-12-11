@@ -1,0 +1,36 @@
+.name-input {
+    margin-right: 80px;
+}
+
+.signin-form {
+    background-color: rgba(0,0,0,.5);
+    padding: 30px;
+    color: white;
+}
+
+.input-class {
+    color:aqua
+}
+
+.signin-button {
+    color: white;
+    border: 1px solid white;
+}
+
+.signup-button {
+    border:1px solid black;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+    background-color: rgba(8, 59, 12, 0.5)
+}
+
+.signin-button:hover {
+    cursor:pointer;
+    background-color: rgba(89, 11, 179, 0.5)
+}

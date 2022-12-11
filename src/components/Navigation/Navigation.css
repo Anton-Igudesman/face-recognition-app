@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 20px;
+}
+
+.navelement {
+    background: LINEAR-GRADIENT(TO RIGHT, RGB(255, 0, 136), RGB(0, 194, 103));
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: transform 1s;
+
+}
+
+.navelement:hover {
+    background: LINEAR-GRADIENT(TO LEFT, RGB(255, 0, 136), RGB(0, 194, 103));
+    transform: scale(1.25) rotate(5deg)
+}
